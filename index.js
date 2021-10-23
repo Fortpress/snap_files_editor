@@ -4,7 +4,7 @@ exports.setup =
 {
     title: "Files Editor",
     description: "Edit all the files",
-    version: "0.0.1",
+    version: "0.0.2",
 }
 
 async function fileStat(_path)
