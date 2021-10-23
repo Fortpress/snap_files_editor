@@ -36,6 +36,7 @@
  
 	<div class="card">
 		<div class="card-header">
+		    <button class="btn" onclick="previous()"> <i class="fa fa-arrow-up"></i></button>
 			<span id="currentPath" style="padding-right:10px;"></span>
 			<form method="POST" enctype="multipart/form-data">
 				<input type="hidden" id="formPath" name="path" value="">
@@ -46,7 +47,6 @@
 			<input class="form-control" placeholder="path/ or file.txt" id="newFile" style="max-width: 250px; margin-left:20px; margin-right:5px;"><button onclick="addFile();" class="btn btn-success"><i class="fa fa-plus"></i></button>
 			<div class="card-options">
 				<button class="btn" onclick="reload()"> <i class="fa fa-repeat"></i></button>
-				<button class="btn" onclick="previous()"> <i class="fa fa-arrow-up"></i></button>
 			</div>
 		</div>
 		<div class="card-body" id="list">
